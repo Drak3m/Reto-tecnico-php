@@ -1,0 +1,164 @@
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: #e6f0ff; /* Azul clarito como en la imagen */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 30px;
+    align-items: flex-start; /* <-- AÑADE ESTA LÍNEA */
+}
+
+.columna {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.2s ease;
+}
+
+.columna:hover {
+    transform: translateY(-4px);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #003366;
+    font-size: 24px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    margin-right: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #004999;
+    transform: scale(1.05);
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.exito-pago {
+    background-color: #e6ffed;
+    border: 1px solid #34a853;
+    color: #202124;
+    padding: 24px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.exito-pago h2 {
+    color: #0b8043;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.boton-pago {
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-pago:hover {
+    background-color: #0a58ca;
+    transform: scale(1.03);
+}
+
+.boton-pago {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0b8043;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton-pago:hover {
+    background-color: #0a6d39;
+}
+
+.error-pago {
+    background-color: #ffefef;
+    border: 1px solid #e53935;
+    padding: 15px;
+    border-radius: 8px;
+    color: #b71c1c;
+    margin-top: 20px;
+}
+
+.columna img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+
+.imagen-encabezado {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
