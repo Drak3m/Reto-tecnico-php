@@ -58,6 +58,14 @@ Dentro de la carpeta postman/ encontrarás una colección de pruebas para valida
 4. Ejecuta la colección
 
 ----------------------------------------
+
+Importante: Aparece un error al hacer el pago PSE 
+Posibles causas.
+	error de api
+	cod empresarial incompleto/defectuoso
+
+----------------------------------------
+
 Notas Adicionales
 
 - Se recomienda usar un entorno local como XAMPP, Laragon o Docker si prefieres una experiencia más completa.
